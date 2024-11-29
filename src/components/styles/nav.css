@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Distribute space between items */
+  padding: 10px 20px;
+  background-color: #133e87;
+  color: #fff;
+}
+
+.logo {
+  flex: 1; /* Pushes the logo to the far left */
+}
+
+.nav-links {
+  /* position: relative;
+    right:25em; */
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+  justify-content: center; /* Centers the links horizontally */
+
+  flex: 25; /* Makes this section grow to allow centering */
+  gap: 50px; /* Adds space between links */
+  margin: 0; /* Removes any default margin */
+  padding: 0; /* Removes any default padding */
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links li {
+  list-style: none; /* Ensures no bullet points appear */
+}
+
+.nav-links li:first-child a {
+  color: #ffddae; /* Example: Change the text color to yellow */
+  font-weight: bold; /* Example: Make it bold */
+}

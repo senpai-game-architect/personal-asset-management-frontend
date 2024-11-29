@@ -1,0 +1,46 @@
+
+
+.dashboard {
+  padding: 20px;
+}
+
+.cards-container {
+  display: flex;
+  gap: 15px;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+  flex: 1;
+  text-align: center;
+}
+
+.form-container {
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
